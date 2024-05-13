@@ -1,0 +1,266 @@
+@charset 'utf-8';
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+.astorflex-processpage > figure {
+  width: 100%;
+  height: 100%;
+}
+.astorflex-processpage > figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.overview {
+  position: relative;
+  width: 100%;
+}
+.overview > figure {
+  width: 100%;
+}
+.overview > figure img {
+  width: 100%;
+}
+.overview-info {
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-family: "pretendard";
+  width: 947px;
+}
+.overview-info h2 {
+  color: #fff;
+  opacity: 0.7;
+}
+h2 {
+  font-family: "pretendard";
+  font-weight: 600;
+  font-size: 6.2rem;
+  color: #5f3300;
+  text-align: center;
+  margin-top: 6rem;
+}
+h3 {
+  font-family: "pretendard";
+
+  font-weight: 500;
+  font-size: 5rem;
+  color: #35651e;
+  opacity: 0.8;
+}
+.overview-info p {
+  margin-top: 4rem;
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: #fff;
+  opacity: 0.7;
+}
+.design-system {
+  font-family: "pretendard";
+  width: 100%;
+  position: relative;
+}
+.design-system > figure {
+  width: 100%;
+}
+.design-system > figure img {
+  width: 100%;
+}
+.system {
+  position: absolute;
+  width: 86.4583%;
+  left: 6.7708%;
+  top: 0;
+}
+.system-cover {
+  display: flex;
+  width: 164.1rem;
+  margin-top: 20rem;
+  justify-content: space-between;
+}
+.color-pic ul {
+  display: flex;
+  width: 100.9rem;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.color-pic ul + ul {
+  width: 70rem;
+}
+.color-info {
+  width: 54rem;
+}
+.color-info p {
+  margin-top: 1.8rem;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 170%;
+}
+.typo-icon {
+  display: flex;
+  margin-top: 15rem;
+}
+.typo-icon p {
+  font-family: "pretendard";
+  font-size: 3rem;
+  color: #333;
+  margin-top: 5.5rem;
+  line-height: 170%;
+}
+.typography {
+  width: 50%;
+}
+.typography ul {
+  margin-top: 5.5rem;
+}
+.typography ul li {
+  margin-top: 2rem;
+}
+.icon-cover {
+  width: 56rem;
+}
+.icon-pic ul {
+  width: 57rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5.5rem;
+}
+.icon-pic ul + ul {
+  width: 46rem;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+.icon-pic p {
+  width: 82rem;
+  margin-top: 9rem;
+}
+.design-concept {
+  width: 100%;
+  position: relative;
+}
+.design-concept figure {
+  width: 100%;
+}
+.design-concept figure img {
+  width: 100%;
+}
+.design-concept-cover {
+  position: absolute;
+  top: 0;
+  width: 86.4583%;
+  left: 6.7708%;
+  font-family: "pretendard";
+  color: #fff;
+  opacity: 0.7;
+}
+.design-concept-cover p {
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 170%;
+  margin-top: 4rem;
+}
+.design-concept-cover h3 {
+  font-weight: 600;
+  font-size: 6.2rem;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.product {
+  margin-top: 100rem;
+}
+.core-philosophy {
+  margin: 185rem 0 0 60%;
+}
+.history-materials {
+  margin-top: 140rem;
+  font-family: "pretendard";
+  color: #000;
+  opacity: 0.9;
+}
+.history-materials h3 {
+  color: #000;
+  opacity: 0.9;
+}
+.prologue {
+  width: 100%;
+  position: relative;
+}
+.prologue figure {
+  width: 100%;
+}
+.prologue figure img {
+  width: 100%;
+}
+.prologue-info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  opacity: 0.7;
+  font-family: "pretendard";
+}
+.prologue-info h3 {
+  color: #fff;
+  opacity: 0.7;
+  text-align: center;
+  font-size: 6.2rem;
+}
+.prologue-info p {
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 4rem;
+  line-height: 170%;
+}
+.cording {
+  width: 100%;
+  position: relative;
+}
+.cording figure {
+  width: 100%;
+}
+.cording figure img {
+  width: 100%;
+}
+.cording-title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cording .cording-title h2 {
+  text-align: center;
+}
+.next {
+  font-family: "pretendard";
+  font-size: 3.5rem;
+  color: #140625;
+  text-align: center;
+  font-weight: 400;
+  background-color: #5f3300;
+  height: 10.3rem;
+  position: relative;
+}
+.next-info {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  width: 38.6rem;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.next-info figure {
+  margin-top: 1rem;
+}
