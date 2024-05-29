@@ -190,6 +190,16 @@ h3 {
   color: #000;
   opacity: 0.9;
 }
+.sub-page {
+  position: relative;
+  width: 100%;
+}
+.sub-page figure {
+  width: 100%;
+}
+.sub-page figure img {
+  width: 100%;
+}
 .prologue {
   width: 100%;
   position: relative;
@@ -260,6 +270,21 @@ h3 {
   width: 38.6rem;
   transform: translate(-50%, -50%);
   color: #fff;
+}
+.next-info:hover .hover b {
+  display: none;
+}
+.next-info .hover {
+  display: block;
+}
+.next-info:hover .hover {
+  display: block;
+  background-image: url(../img/footer-logo.png);
+  background-size: cover;
+  width: 93.94px;
+  height: 45px;
+  display: block;
+  z-index: 20;
 }
 .next-info figure {
   margin-top: 1rem;
